@@ -130,9 +130,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 
 # Lineage hardware
-ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
+ifneq ($(findstring rr, $(TARGET_PRODUCT)),)
 BOARD_HARDWARE_CLASS := \
-    hardware/samsung/lineagehw
+    hardware/samsung/rrhw
 endif
 
 # Inherit from the proprietary version
