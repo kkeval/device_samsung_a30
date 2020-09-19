@@ -35,7 +35,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/samsung/universal7904
-TARGET_KERNEL_CONFIG := a30_defconfig deconfig
+TARGET_KERNEL_CONFIG := a30_defconfig defconfig
 
 TARGET_USES_64_BIT_BINDER := true
 
