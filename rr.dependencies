@@ -1,9 +1,5 @@
 [
     {
-        "repository": "crazo7924/kernel_samsung_a30",
-        "target_path": "kernel/samsung/a30"
-    },
-    {
         "repository": "android_hardware_samsung",
         "target_path": "hardware/samsung"
     }
