@@ -4,7 +4,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Inherit from a30 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -12,7 +12,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := a30
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_NAME := lineage_a30
+PRODUCT_NAME := rr_a30
 PRODUCT_MODEL := SM-A305F
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
