@@ -1,6 +1,6 @@
 DEVICE_PATH := device/samsung/a30
 BOARD_VENDOR := samsung
-
+BUILD_BROKEN_DUP_RULES := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-02-01
 
